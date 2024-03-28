@@ -24,9 +24,13 @@ document.addEventListener('DOMContentLoaded', function () {
           }
 
           certificateContent.innerHTML = `
-              <h3>${studentName}</h3>
-              <h3>${personalMessage}</h3>
-              <h3>${courseName}</h3>
+               <h1>🤸‍♀️💫Certificate of Achievement </h1>
+               <h3>This is to certify that</h3>
+              <h1>${studentName}</h1>
+              <h3>Has almost completed</h3>
+              <h1>${courseName}</h1>
+              <p>${personalMessage}🥳</p> 
+              <img>logo.png</img>
           `;
           
           modalElement.style.display = 'block';
