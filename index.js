@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
           certificateContent.innerHTML = `
               <h3>${studentName}</h3>
+              <h3>${personalMessage}</h3>
+              <h3>${courseName}</h3>
           `;
           
           modalElement.style.display = 'block';
