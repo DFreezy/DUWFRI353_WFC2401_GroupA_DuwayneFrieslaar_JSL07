@@ -1,12 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     const cardForm = document.getElementById('cardForm');
     const modal = document.getElementById('modal');
-    const certificateContent = document.getElementById('certificateContent');
+    let certificateContent = document.getElementById('certificateContent');
     const closeModal = document.querySelector('.close');
   
     // Hide the modal initially
     modal.style.display = 'none';
   
+    function modal() {
     cardForm.addEventListener('submit', function (e) {
       e.preventDefault();
   
@@ -22,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (studentName.trim() === '' || personalMessage.trim() === '') {
         alert('Please fill in all fields');
         return;
-      }
+      } else
   
       // 🚨 Generate certificate content dynamically
       certificateContent = ''`
@@ -42,5 +43,5 @@ document.addEventListener('DOMContentLoaded', function () {
     closeModal.addEventListener('click', function () {
       
     });
-  });
-  
+  };
+})
