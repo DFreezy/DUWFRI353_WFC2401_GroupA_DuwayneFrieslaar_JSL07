@@ -52,7 +52,7 @@ button:hover {
   }
   
   .modal-content {
-    background-color: #fff;
+    background-color: #0074e4;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -115,6 +115,6 @@ button:hover {
 
 img {
   text-align: center;
-  width: 150px;
+  width: 250px;
   height: 100px;
 }
